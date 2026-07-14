@@ -1,0 +1,46 @@
+/* start pup-brand */
+section.pup-brand {
+  width: 100%;
+  height: 230px;
+  padding: 40px;
+  margin-top: 10px;
+  border-top: 1px solid gray;
+}
+section.pup-brand > span {
+  font-size: 20px;
+  color: #555555;
+  font-family: bold;
+  text-decoration: underline;
+  padding-right: 50px;
+}
+section.pup-brand > div.icon-swiper {
+  width: 100%;
+  height: 90%;
+  padding: 8px;
+  overflow-x: hidden;
+  margin-top: 50px;
+}
+section.pup-brand > div.icon-swiper > div.swiper-wrapper {
+  width: 100%;
+  height: 100%;
+}
+section.pup-brand > div.icon-swiper > div.swiper-wrapper > div.swiper-slide {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+section.pup-brand
+  > div.icon-swiper
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > img {
+  width: 120px;
+  height: 120px;
+  padding: 5px;
+  border: 6px solid #243a73;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px #243a73;
+  object-fit: contain;
+}
+/* start pup-brand */

@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+@font-face {
+  font-family: vazirmatn;
+  src: url(../fonts/Vazirmatn-Regular.ttf);
+}
+
+@font-face {
+  font-family: bold;
+  src: url(../fonts/Vazirmatn-Bold.ttf);
+}
+html {
+  background-color: #bde0fe;
+  font-family: vazirmatn;
+}

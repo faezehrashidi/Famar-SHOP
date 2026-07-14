@@ -1,0 +1,5 @@
+@import url(./swiper.css);
+@import url(./settings.css);
+@import url(./desktop/desktop.css) only screen and (min-width: 551px);
+@import url(./mobile/mobile.css) only screen and (max-width: 550px) and
+  (min-width: 300px);

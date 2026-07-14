@@ -1,0 +1,83 @@
+/* start footer */
+footer {
+  width: 100%;
+  height: fit-content;
+  padding: 30px 15px;
+  background-color: #284aa3;
+  border-top: 8px solid #94acea;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+footer > div.shop {
+  width: 20%;
+  display: flex;
+  flex-flow: column;
+  justify-items: center;
+  align-items: center;
+  gap: 10px;
+}
+footer > div.shop > img {
+  width: 150px;
+}
+footer > div.shop > h2 {
+  font-size: 18px;
+  color: white;
+}
+footer > div.call {
+  width: 15%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border-bottom: 1px solid white;
+}
+footer > div.call > svg {
+  width: 50px;
+}
+footer > div.call > span {
+  font-size: 90%;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+}
+footer > div.mail {
+  width: 40%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border-bottom: 1px solid white;
+}
+footer > div.mail > svg {
+  width: 50px;
+}
+footer > div.mail > span {
+  font-size: 90%;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+}
+footer > div.addres {
+  width: 20%;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border-bottom: 1px solid white;
+}
+footer > div.addres > svg {
+  width: 20%;
+}
+footer > div.addres > span {
+  font-size: 90%;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+}
+/* end footer */

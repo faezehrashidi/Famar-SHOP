@@ -1,0 +1,124 @@
+/* start cards */
+section.cards {
+  width: 100%;
+  height: 960px;
+  background-color: #bde0fe;
+  margin: 10px auto;
+  padding: 8px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  gap: 15px;
+}
+section.cards > div.card {
+  width: 85%;
+  height: 380px;
+  padding: 8px;
+  margin: 45px auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid silver;
+  box-shadow: 1px 1px 5px white;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+section.cards > div.card > img.card-image {
+  width: 60%;
+  object-fit: cover;
+}
+section.cards > div.card > div.card-body {
+  width: 100%;
+  height: 160px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+section.cards > div.card > div.card-body > h5 {
+  font-size: 16px;
+  text-align: center;
+  color: #555555;
+}
+section.cards > div.card > div.card-body > div.price {
+  width: 100%;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+section.cards > div.card > div.card-body > div.price > div.price-stack {
+  display: flex;
+  flex-flow: column;
+  align-items: end;
+}
+section.cards
+  > div.card
+  > div.card-body
+  > div.price
+  > div.price-stack
+  > div.real-price {
+  width: 100%;
+  margin: 10px auto;
+  display: flex;
+  flex-flow: row;
+  gap: 7px;
+}
+section.cards
+  > div.card
+  > div.card-body
+  > div.price
+  > div.price-stack
+  > div.real-price
+  > span {
+  font-size: 16px;
+  color: #3f4064;
+}
+section.cards
+  > div.card
+  > div.card-body
+  > div.price
+  > div.price-stack
+  > div.real-price
+  > img {
+  width: 16px;
+  height: 16px;
+}
+section.cards > div.card > div.card-body > div.price > span {
+  padding: 5px;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #ff9cee;
+  border-radius: 50%;
+}
+section.cards
+  > div.card
+  > div.card-body
+  > div.price
+  > div.price-stack
+  > div.discount-price {
+  width: 100%;
+}
+section.cards
+  > div.card
+  > div.card-body
+  > div.price
+  > div.price-stack
+  > div.discount-price
+  > span {
+  font-size: 16px;
+  color: #3f4064;
+  text-decoration: line-through;
+}
+section.cards > div.card > div.card-body > a {
+  padding: 8px;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #bde0fe;
+  border-radius: 60px;
+  text-decoration: none;
+}
+/* end cards */

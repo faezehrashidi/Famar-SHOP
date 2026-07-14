@@ -1,0 +1,44 @@
+/* start pup-brand */
+section.pup-brand {
+  width: 100%;
+  height: 180px;
+  padding: 10px;
+}
+section.pup-brand > span {
+  font-size: 14px;
+  color: #555555;
+  font-family: bold;
+  padding-right: 30px;
+}
+section.pup-brand > div.icon-swiper {
+  width: 100%;
+  height: 90%;
+  padding: 8px;
+  overflow-x: hidden;
+  margin-top: 5px;
+}
+section.pup-brand > div.icon-swiper > div.swiper-wrapper {
+  width: 100%;
+  height: 100%;
+}
+section.pup-brand > div.icon-swiper > div.swiper-wrapper > div.swiper-slide {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+section.pup-brand
+  > div.icon-swiper
+  > div.swiper-wrapper
+  > div.swiper-slide
+  > img {
+  width: 90px;
+  height: 90px;
+  padding: 5px;
+  border: 6px solid #243a73;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px #243a73;
+  object-fit: contain;
+}
+/* end pup-brand */

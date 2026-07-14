@@ -1,0 +1,26 @@
+/* start accor */
+section.accor {
+  width: 95%;
+  height: fit-content;
+  margin: 10px auto;
+  padding: 12px;
+  border: 1px groove silver;
+  border-radius: 8px;
+  background-color: #173b45;
+}
+section.accor > span {
+  font-size: 1rem;
+  font-family: bold;
+  color: white;
+  padding-right: 20px;
+}
+section.accor > div.accordion > div.accordion-item {
+  margin-top: 12px;
+}
+button {
+  font-size: 14px;
+}
+.accordion-body {
+  font-size: 12px;
+}
+/* end accor */
